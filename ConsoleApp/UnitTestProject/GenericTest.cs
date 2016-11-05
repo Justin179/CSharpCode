@@ -16,6 +16,9 @@ namespace UnitTestProject
             Assert.AreEqual(true,nullable.HasValue);
             Assert.AreEqual(5,nullable.GetValueOrDefault());
 
+            Console.WriteLine();
+            Console.WriteLine();
+
             var nullable2 = new Nullable<int>();
             Assert.AreEqual(false, nullable2.HasValue);
             Assert.AreEqual(0, nullable2.GetValueOrDefault());
