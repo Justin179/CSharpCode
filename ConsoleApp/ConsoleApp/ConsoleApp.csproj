@@ -41,7 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FirstClass.cs" />
+    <Compile Include="Generics\Book.cs" />
+    <Compile Include="Generics\GenericDictionary.cs" />
+    <Compile Include="Generics\GenericList.cs" />
+    <Compile Include="Generics\Nullable.cs" />
+    <Compile Include="Generics\Utilities.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
