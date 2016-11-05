@@ -13,12 +13,12 @@ namespace ConsoleApp.Delegate
     
     public class DelegateSample1
     {
-        public static void Main(string[] args)
-        {
-            var stub = new SayHelloDelegate(SayHello);
-            stub("Hello :)");
+        //public static void Main(string[] args)
+        //{
+        //    var stub = new SayHelloDelegate(SayHello);
+        //    stub("Hello :)");
 
-        }
+        //}
 
         public static void SayHello(string word)
         {
