@@ -9,24 +9,24 @@ namespace ConsoleApp.Delegate
     class DelegateSample2
     {
 
-        public static void Main(string[] args)
-        {
+        //public static void Main(string[] args)
+        //{
 
-            var employees = new List<Employee>();
+        //    var employees = new List<Employee>();
 
-            employees.Add(new Employee() { ID = 1, Name = "Mr.One", Experience = 3 });
-            employees.Add(new Employee() { ID = 2, Name = "Mr.Two", Experience = 4 });
-            employees.Add(new Employee() { ID = 3, Name = "Mr.Three", Experience = 5 });
-            employees.Add(new Employee() { ID = 4, Name = "Mr.Four", Experience = 6 });
+        //    employees.Add(new Employee() { ID = 1, Name = "Mr.One", Experience = 3 });
+        //    employees.Add(new Employee() { ID = 2, Name = "Mr.Two", Experience = 4 });
+        //    employees.Add(new Employee() { ID = 3, Name = "Mr.Three", Experience = 5 });
+        //    employees.Add(new Employee() { ID = 4, Name = "Mr.Four", Experience = 6 });
 
-            // 把方法(with logic)包成delegate傳過去
-            var IsEligibleToPromote = new IsPromotable(Promote);
+        //    // 把方法(with logic)包成delegate傳過去
+        //    var IsEligibleToPromote = new IsPromotable(Promote);
 
-            Employee.PromoteEmployee(employees, IsEligibleToPromote);
-            Console.WriteLine("----------------------");
-            // Lambda 一行就搞定
-            Employee.PromoteEmployee(employees, emp => emp.Experience>=5);
-        }
+        //    Employee.PromoteEmployee(employees, IsEligibleToPromote);
+        //    Console.WriteLine("----------------------");
+        //    // Lambda 一行就搞定
+        //    Employee.PromoteEmployee(employees, emp => emp.Experience>=5);
+        //}
 
         // Business logic
         public static bool Promote(Employee employee)

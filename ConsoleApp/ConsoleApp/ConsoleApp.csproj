@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Delegate\DelegateSample1.cs" />
     <Compile Include="Delegate\DelegateSample2.cs" />
+    <Compile Include="Delegate\MulticastDelegate.cs" />
     <Compile Include="Generics\Book.cs" />
     <Compile Include="Generics\GenericDictionary.cs" />
     <Compile Include="Generics\GenericList.cs" />
