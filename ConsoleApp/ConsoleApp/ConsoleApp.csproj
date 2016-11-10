@@ -44,6 +44,12 @@
     <Compile Include="Delegate\DelegateSample1.cs" />
     <Compile Include="Delegate\DelegateSample2.cs" />
     <Compile Include="Delegate\MulticastDelegate.cs" />
+    <Compile Include="EventsAndDelegates\MailService.cs" />
+    <Compile Include="EventsAndDelegates\Program.cs" />
+    <Compile Include="EventsAndDelegates\TextMessage.cs" />
+    <Compile Include="EventsAndDelegates\Video.cs" />
+    <Compile Include="EventsAndDelegates\VideoEncoder.cs" />
+    <Compile Include="EventsAndDelegates\VideoEventArgs.cs" />
     <Compile Include="Repository\Book.cs" />
     <Compile Include="Generics\GenericDictionary.cs" />
     <Compile Include="Generics\GenericList.cs" />

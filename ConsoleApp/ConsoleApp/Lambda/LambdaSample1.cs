@@ -10,8 +10,8 @@ namespace ConsoleApp.Lambda
     class LambdaSample1
     {
 
-        public static void Main(string[] args)
-        {
+        //public static void Main(string[] args)
+        //{
             // () => ...
             // x => ...
             // (x,y) => ...
@@ -25,20 +25,20 @@ namespace ConsoleApp.Lambda
             //Console.WriteLine(returnValue); // 40
             
             // pass in Predicate
-            var books = new BookRepository().GetBooks();
-            var cheaperBooks = books.FindAll(IsCheaperThan200);
-            foreach (var cheapBook in cheaperBooks)
-            {
-                Console.WriteLine(cheapBook.Name);
-            }
-            Console.WriteLine("============");
-            // do the same thing with Lambda expression
-            var expensiveBooks = books.FindAll(book => book.Price > 200);
-            foreach (var expensiveBook in expensiveBooks)
-            {
-                Console.WriteLine(expensiveBook.Name);
-            }
-        }
+            //var books = new BookRepository().GetBooks();
+            //var cheaperBooks = books.FindAll(IsCheaperThan200);
+            //foreach (var cheapBook in cheaperBooks)
+            //{
+            //    Console.WriteLine(cheapBook.Name);
+            //}
+            //Console.WriteLine("============");
+            //// do the same thing with Lambda expression
+            //var expensiveBooks = books.FindAll(book => book.Price > 200);
+            //foreach (var expensiveBook in expensiveBooks)
+            //{
+            //    Console.WriteLine(expensiveBook.Name);
+            //}
+        //}
 
         static bool IsCheaperThan200(Book book)
         {
