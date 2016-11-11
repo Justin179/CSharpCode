@@ -44,6 +44,8 @@
     <Compile Include="Delegate\DelegateSample1.cs" />
     <Compile Include="Delegate\DelegateSample2.cs" />
     <Compile Include="Delegate\MulticastDelegate.cs" />
+    <Compile Include="ExceptionHandling\Calculator.cs" />
+    <Compile Include="ExceptionHandling\Program.cs" />
     <Compile Include="EventsAndDelegates\MailService.cs" />
     <Compile Include="EventsAndDelegates\Program.cs" />
     <Compile Include="EventsAndDelegates\TextMessage.cs" />
@@ -55,13 +57,13 @@
     <Compile Include="Linq\Book.cs" />
     <Compile Include="Linq\BookRepository.cs" />
     <Compile Include="Linq\Program.cs" />
+    <Compile Include="AsyncAwait\Program.cs" />
     <Compile Include="Repository\Book.cs" />
     <Compile Include="Generics\GenericDictionary.cs" />
     <Compile Include="Generics\GenericList.cs" />
     <Compile Include="Generics\Nullable.cs" />
     <Compile Include="Generics\Utilities.cs" />
     <Compile Include="Lambda\LambdaSample1.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\BookRepository.cs" />
   </ItemGroup>
