@@ -52,6 +52,9 @@
     <Compile Include="EventsAndDelegates\VideoEventArgs.cs" />
     <Compile Include="ExtensionMethods\Program.cs" />
     <Compile Include="ExtensionMethods\StringExtensions.cs" />
+    <Compile Include="Linq\Book.cs" />
+    <Compile Include="Linq\BookRepository.cs" />
+    <Compile Include="Linq\Program.cs" />
     <Compile Include="Repository\Book.cs" />
     <Compile Include="Generics\GenericDictionary.cs" />
     <Compile Include="Generics\GenericList.cs" />
